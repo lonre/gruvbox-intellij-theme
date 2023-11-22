@@ -90,6 +90,13 @@
         "nonEditableBackground": "bg"
       }
     },
+    "Debugger": {
+      "Variables": {
+        "valueForeground": "orange1",
+        "changedValueForeground": "blue1",
+        "modifyingValueForeground": "blue1"
+      }
+    },
     "EditorTabs": {
       "selectedBackground": "bg0_s",
       "underlinedTabBackground": "bg2",

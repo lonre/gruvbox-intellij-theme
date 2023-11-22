@@ -4,6 +4,10 @@
 
 ## Unreleased
 
+## 0.6.2
+### Changed
+- Explicitly set the Debugger valueForeground
+
 ## 0.6.1
 
 ### Added
