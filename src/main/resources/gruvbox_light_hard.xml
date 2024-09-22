@@ -471,6 +471,11 @@
         <option name="FOREGROUND" value="d79921" />
       </value>
     </option>
+    <option name="DEFAULT_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="79740e" />
+      </value>
+    </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="f9f5d7" />
@@ -1047,5 +1052,7 @@
         <option name="FOREGROUND" value="76678" />
       </value>
     </option>
+    <option name="org.rust.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL"/>
+    <option name="org.rust.METHOD_CALL" baseAttributes="DEFAULT_FUNCTION_CALL"/>
   </attributes>
 </scheme>
