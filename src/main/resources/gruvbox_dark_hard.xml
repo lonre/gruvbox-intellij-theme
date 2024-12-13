@@ -617,6 +617,12 @@
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
+        <option name="FOREGROUND" value="acacac" />
+        <option name="BACKGROUND" value="4d4d4d" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+      <value>
         <option name="FOREGROUND" value="fbf1c7" />
         <option name="BACKGROUND" value="8ec07c" />
       </value>
