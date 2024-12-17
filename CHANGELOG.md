@@ -4,6 +4,11 @@
 
 ## Unreleased
 
+## 0.6.3
+### Changed
+- Inline parameters highlighting tweak (thanks @eprst)
+- Add rust specific options for function and method calls (thanks @devmatteini)
+
 ## 0.6.2
 ### Changed
 - Explicitly set the Debugger valueForeground
