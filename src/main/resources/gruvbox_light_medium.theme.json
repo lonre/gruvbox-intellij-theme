@@ -66,6 +66,11 @@
     "ActionButton": {
       "hoverBackground": "bg2"
     },
+    "SearchOption": {
+      "selectedBackground": "bg2",
+      "selectedHoveredBackground": "bg3",
+      "selectedPressedBackground": "bg3"
+    },
     "Button": {
       "startBackground": "bg",
       "endBackground": "bg",
@@ -101,6 +106,14 @@
       "underlinedTabBackground": "bg0_h",
       "underlineColor": "blue1",
       "inactiveMaskColor": "#fbf1c766"
+    },
+    "MainToolbar": {
+      "background": "bg",
+      "inactiveBackground": "bg"
+    },
+    "TitlePane": {
+      "background": "bg",
+      "inactiveBackground": "bg"
     },
     "ToolWindow": {
       "Header": {

@@ -4,6 +4,10 @@
 
 ## Unreleased
 
+### Fixed
+- Define distinguishable selected search option states across all themes
+- Keep window header backgrounds consistent when dialogs take focus
+
 ## 0.6.3
 ### Changed
 - Inline parameters highlighting tweak (thanks @eprst)
