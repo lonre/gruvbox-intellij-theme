@@ -7,6 +7,8 @@
 ### Fixed
 - Define distinguishable selected search option states across all themes
 - Keep window header backgrounds consistent when dialogs take focus
+- Keep selected editor text readable across all color schemes
+- Make method separators visible without overpowering the editor
 
 ## 0.6.3
 ### Changed

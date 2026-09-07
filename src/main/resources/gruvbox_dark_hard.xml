@@ -9,12 +9,13 @@
     <option name="GUTTER_BACKGROUND" value="1d2021" />
     <option name="INDENT_GUIDE" value="665c54" />
     <option name="LINE_NUMBERS_COLOR" value="928374" />
-    <option name="METHOD_SEPARATORS_COLOR" value="2a2a2a" />
+    <option name="METHOD_SEPARATORS_COLOR" value="665c54" />
     <option name="MODIFIED_LINES_COLOR" value="415f69" />
     <option name="RIGHT_MARGIN_COLOR" value="665c54" />
     <option name="SELECTED_INDENT_GUIDE" value="f8e1aa" />
     <option name="SELECTED_TEARLINE_COLOR" value="8ec07c" />
     <option name="SELECTION_BACKGROUND" value="665c54" />
+    <option name="SELECTION_FOREGROUND" value="fbf1c7" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="3c3836" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="3c3836" />
     <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="282828" />
