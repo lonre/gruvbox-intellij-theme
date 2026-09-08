@@ -15,7 +15,8 @@
     <option name="SELECTED_INDENT_GUIDE" value="f8e1aa" />
     <option name="SELECTED_TEARLINE_COLOR" value="8ec07c" />
     <option name="SELECTION_BACKGROUND" value="665c54" />
-    <option name="SELECTION_FOREGROUND" value="fbf1c7" />
+    <option name="SELECTION_BACKGROUND_INACTIVE" value="504945" />
+    <option name="SELECTION_FOREGROUND" value="" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="3c3836" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="3c3836" />
     <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="282828" />
@@ -72,7 +73,7 @@
     </option>
     <option name="BASH.FUNCTION_DEF_NAME">
       <value>
-        <option name="FOREGROUND" value="b8bb26" />
+        <option name="FOREGROUND" value="8ec07c" />
       </value>
     </option>
     <option name="BASH.INTERNAL_COMMAND">
@@ -214,7 +215,7 @@
     </option>
     <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="b8bb26" />
+        <option name="FOREGROUND" value="8ec07c" />
       </value>
     </option>
     <option name="CTRL_CLICKABLE">
@@ -357,7 +358,7 @@
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="b8bb26" />
+        <option name="FOREGROUND" value="8ec07c" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -377,7 +378,7 @@
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
-        <option name="FOREGROUND" value="b8bb26" />
+        <option name="FOREGROUND" value="8ec07c" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -457,7 +458,7 @@
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="b8bb26" />
+        <option name="FOREGROUND" value="8ec07c" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -482,7 +483,7 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="b8bb26" />
+        <option name="FOREGROUND" value="8ec07c" />
       </value>
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
@@ -526,7 +527,8 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="504945" />
+        <option name="FOREGROUND" value="a89984" />
+        <option name="BACKGROUND" value="32302f" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
@@ -599,9 +601,8 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ebdbb2" />
-        <option name="BACKGROUND" value="313008" />
-        <option name="ERROR_STRIPE_COLOR" value="313008" />
+        <option name="BACKGROUND" value="313d31" />
+        <option name="ERROR_STRIPE_COLOR" value="689d6a" />
       </value>
     </option>
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
@@ -630,7 +631,24 @@
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
         <option name="FOREGROUND" value="fbf1c7" />
-        <option name="BACKGROUND" value="8ec07c" />
+        <option name="BACKGROUND" value="665c54" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="fbf1c7" />
+        <option name="BACKGROUND" value="3b514d" />
+      </value>
+    </option>
+    <option name="INLAY_DEFAULT">
+      <value>
+        <option name="FOREGROUND" value="acacac" />
+        <option name="BACKGROUND" value="4d4d4d" />
+      </value>
+    </option>
+    <option name="INLAY_TEXT_WITHOUT_BACKGROUND">
+      <value>
+        <option name="FOREGROUND" value="acacac" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
@@ -693,7 +711,8 @@
     <option name="List/map to object conversion" baseAttributes="JAVA_NUMBER" />
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ff8647" />
+        <option name="FOREGROUND" value="" />
+        <option name="BACKGROUND" value="3b514d" />
       </value>
     </option>
     <option name="METHOD_DECLARATION_ATTRIBUTES">
@@ -930,9 +949,8 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ebdbb2" />
-        <option name="BACKGROUND" value="5a590f" />
-        <option name="ERROR_STRIPE_COLOR" value="5a590f" />
+        <option name="BACKGROUND" value="544725" />
+        <option name="ERROR_STRIPE_COLOR" value="d79921" />
       </value>
     </option>
     <option name="SPY-JS.EXCEPTION">
@@ -977,7 +995,7 @@
     </option>
     <option name="STATIC_METHOD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="b8bb26" />
+        <option name="FOREGROUND" value="8ec07c" />
       </value>
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
@@ -993,9 +1011,8 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ebdbb2" />
-        <option name="BACKGROUND" value="5a590f" />
-        <option name="ERROR_STRIPE_COLOR" value="5a590f" />
+        <option name="BACKGROUND" value="544725" />
+        <option name="ERROR_STRIPE_COLOR" value="d79921" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
@@ -1037,16 +1054,14 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ebdbb2" />
-        <option name="BACKGROUND" value="2f0d0d" />
-        <option name="ERROR_STRIPE_COLOR" value="2f0d0d" />
+        <option name="BACKGROUND" value="3e3237" />
+        <option name="ERROR_STRIPE_COLOR" value="b16286" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ebdbb2" />
-        <option name="BACKGROUND" value="611818" />
-        <option name="ERROR_STRIPE_COLOR" value="611818" />
+        <option name="BACKGROUND" value="552a26" />
+        <option name="ERROR_STRIPE_COLOR" value="cc241d" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">

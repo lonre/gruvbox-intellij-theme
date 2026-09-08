@@ -43,6 +43,11 @@
 
       "infoForeground": "fg",
 
+      "disabledText": "bg4",
+      "disabledForeground": "bg4",
+      "inactiveForeground": "bg4",
+      "disabledBackground": "bg",
+
       "lightSelectionBackground": "bg1",
       "selectionBackground": "bg1",
       "selectionForeground": "fg0",
@@ -58,7 +63,7 @@
       "hoverBackground": "#fbf1c766",
 
       "borderColor": "bg2",
-      "disabledBorderColor": "bg0_h",
+      "disabledBorderColor": "bg1",
 
       "separatorColor": "bg2"
     },
@@ -86,10 +91,11 @@
       }
     },
     "ComboBox": {
+      "disabledBackground": "bg",
       "nonEditableBackground": "bg",
       "ArrowButton": {
         "iconColor": "fg0",
-        "disabledIconColor": "fg0",
+        "disabledIconColor": "bg4",
         "nonEditableBackground": "bg"
       }
     },
@@ -109,6 +115,9 @@
     "MainToolbar": {
       "background": "bg",
       "inactiveBackground": "bg"
+    },
+    "RunWidget": {
+      "iconColor": "gray1"
     },
     "TitlePane": {
       "background": "bg",
@@ -131,6 +140,19 @@
       "lightSelectionInactiveForeground":"fg4",
       "lightSelectionBackground": "bg2",
       "lightSelectionInactiveBackground":"bg"
+    },
+    "VersionControl": {
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "bg",
+          "hoveredBackground": "bg0"
+        }
+      },
+      "FileHistory": {
+        "Commit": {
+          "selectedBranchBackground": "bg0"
+        }
+      }
     },
     "FileColor": {
       "Yellow": "#b5761422",
@@ -198,15 +220,17 @@
       "Objects.YellowDark": "#d79921FF",
       "Objects.GreenAndroid": "#98971aFF",
 
-      "Checkbox.Background.Default.Dark": "#fbf1c7",
-      "Checkbox.Border.Default.Dark": "#282828",
-      "Checkbox.Foreground.Selected.Dark": "#282828",
-      "Checkbox.Focus.Wide.Dark": "#458588",
-      "Checkbox.Focus.Thin.Default.Dark": "#458588",
-      "Checkbox.Focus.Thin.Selected.Dark": "#458588",
-      "Checkbox.Background.Disabled.Dark": "#fbf1c7",
-      "Checkbox.Border.Disabled.Dark": "#7c6f64",
-      "Checkbox.Foreground.Disabled.Dark": "#7c6f64"
+      "Checkbox.Background.Default": "bg0",
+      "Checkbox.Border.Default": "bg4",
+      "Checkbox.Foreground.Selected": "bg0",
+      "Checkbox.Background.Selected": "blue0",
+      "Checkbox.Border.Selected": "blue0",
+      "Checkbox.Focus.Wide": "blue0",
+      "Checkbox.Focus.Thin.Default": "blue0",
+      "Checkbox.Focus.Thin.Selected": "blue0",
+      "Checkbox.Background.Disabled": "bg",
+      "Checkbox.Border.Disabled": "bg1",
+      "Checkbox.Foreground.Disabled": "bg4"
     }
   }
 }

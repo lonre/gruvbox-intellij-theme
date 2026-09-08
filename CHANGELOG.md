@@ -7,7 +7,14 @@
 ### Fixed
 - Define distinguishable selected search option states across all themes
 - Keep window header backgrounds consistent when dialogs take focus
-- Keep selected editor text readable across all color schemes
+- Preserve syntax colors while keeping selections distinct from occurrence/search highlights
+- Keep selected syntax legible and use restrained matched-brace backgrounds
+- Unify inlay hint styling and restore More Actions icon contrast
+- Align disabled controls with the Gruvbox background and muted color scale
+- Replace fallback light checkboxes with a Gruvbox-native palette
+- Keep Git Log backgrounds neutral and use subtle Gruvbox hover and history highlights
+- Replace saturated folded-code blocks with subtle Gruvbox background steps
+- Distinguish function and method colors from strings across languages
 - Make method separators visible without overpowering the editor
 
 ## 0.6.3

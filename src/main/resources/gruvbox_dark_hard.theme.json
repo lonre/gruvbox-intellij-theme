@@ -45,6 +45,11 @@
 
       "infoForeground": "fg",
 
+      "disabledText": "bg4",
+      "disabledForeground": "bg4",
+      "inactiveForeground": "bg4",
+      "disabledBackground": "bg",
+
       "lightSelectionBackground": "bg1",
       "selectionBackground": "#4F4945",
       "selectionForeground": "fg0",
@@ -60,7 +65,7 @@
       "hoverBackground": "#28282866",
 
       "borderColor": "bg2",
-      "disabledBorderColor": "bg0_hh",
+      "disabledBorderColor": "bg1",
 
       "separatorColor": "bg2"
     },
@@ -88,10 +93,11 @@
       }
     },
     "ComboBox": {
+      "disabledBackground": "bg",
       "nonEditableBackground": "bg",
       "ArrowButton": {
         "iconColor": "fg0",
-        "disabledIconColor": "fg0",
+        "disabledIconColor": "bg4",
         "nonEditableBackground": "bg"
       }
     },
@@ -111,6 +117,9 @@
     "MainToolbar": {
       "background": "bg",
       "inactiveBackground": "bg"
+    },
+    "RunWidget": {
+      "iconColor": "fg4"
     },
     "TitlePane": {
       "background": "bg",
@@ -133,6 +142,19 @@
       "lightSelectionInactiveForeground":"fg4",
       "lightSelectionBackground": "bg2",
       "lightSelectionInactiveBackground":"bg"
+    },
+    "VersionControl": {
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "bg",
+          "hoveredBackground": "bg0"
+        }
+      },
+      "FileHistory": {
+        "Commit": {
+          "selectedBranchBackground": "bg0"
+        }
+      }
     },
     "FileColor": {
       "Yellow": "#fabd2f22",
