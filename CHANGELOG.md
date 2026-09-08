@@ -4,6 +4,8 @@
 
 ## Unreleased
 
+## 0.7.0
+
 ### Fixed
 - Define distinguishable selected search option states across all themes
 - Keep window header backgrounds consistent when dialogs take focus

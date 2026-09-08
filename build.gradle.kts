@@ -1,4 +1,6 @@
 import org.jetbrains.changelog.markdownToHTML
+import org.gradle.api.tasks.bundling.AbstractArchiveTask
+import org.gradle.api.tasks.bundling.Jar
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 fun properties(key: String) = project.findProperty(key).toString()
@@ -45,6 +47,18 @@ changelog {
 }
 
 tasks {
+    withType<AbstractArchiveTask>().configureEach {
+        isPreserveFileTimestamps = false
+        isReproducibleFileOrder = true
+    }
+
+    withType<Jar>().configureEach {
+        doFirst {
+            manifest.attributes.clear()
+            manifest.attributes["Manifest-Version"] = "1.0"
+        }
+    }
+
     // Set the compatibility versions to 17
     withType<JavaCompile> {
         sourceCompatibility = "17"
