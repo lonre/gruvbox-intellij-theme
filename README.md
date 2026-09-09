@@ -4,6 +4,10 @@
 <!-- Plugin description -->
 Fork from https://plugins.jetbrains.com/plugin/12310-gruvbox-theme.
 
+## Islands Theme
+
+Prefer JetBrains' new Islands UI? [Gruvbox Islands - Theme](https://plugins.jetbrains.com/plugin/34175) is now available as a standalone plugin on JetBrains Marketplace.
+
 gruvbox is heavily inspired by badwolf, jellybeans and solarized.
 
 Designed as a bright theme with pastel 'retro groove' colors and light/dark mode switching in the way of solarized.
