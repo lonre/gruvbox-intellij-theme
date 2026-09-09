@@ -1,8 +1,9 @@
 {
-  "name": "Gruvbox Light Soft",
+  "name": "Gruvbox Islands Light Soft",
   "dark": false,
-  "author": "Vincent Parizet, Marius Helf",
+  "author": "Vincent Parizet, Marius Helf, Lonre Wang",
   "editorScheme": "/gruvbox_light_soft.xml",
+  "parentTheme": "Islands Light",
   "colors": {
     "bg0": "#fbf1c7",
     "bg0_h": "#f9f5d7",
@@ -58,7 +59,7 @@
       "selectedInactiveBackground": "bg2",
       "selectedBackgroundInactive": "bg2",
 
-      "selectedBackground": "bg0_h",
+      "selectedBackground": "bg2",
       "selectedForeground": "fg0",
 
       "hoverBackground": "#fbf1c766",
@@ -67,6 +68,17 @@
       "disabledBorderColor": "bg1",
 
       "separatorColor": "bg2"
+    },
+    "Islands": 1,
+    "Island": {
+      "borderColor": "bg"
+    },
+    "MainWindow.background": "bg2",
+    "MainWindow.Tab": {
+      "selectedBackground": "bg",
+      "hoverBackground": "#00000012",
+      "separatorColor": "bg2",
+      "foreground": "fg3"
     },
     "ActionButton": {
       "hoverBackground": "bg2"
@@ -109,22 +121,29 @@
     },
     "EditorTabs": {
       "selectedBackground": "bg0_s",
+      "background": "bg",
       "underlinedTabBackground": "bg0_h",
+      "inactiveUnderlinedTabBackground": "bg0_s",
+      "underlinedBorderColor": "blue1",
+      "inactiveUnderlinedTabBorderColor": "gray1",
       "underlineColor": "blue1",
       "inactiveMaskColor": "#fbf1c766"
     },
     "MainToolbar": {
-      "background": "bg",
-      "inactiveBackground": "bg"
+      "background": "bg2",
+      "inactiveBackground": "bg2",
+      "borderColor": "#00000000"
     },
     "RunWidget": {
       "iconColor": "gray1"
     },
     "TitlePane": {
-      "background": "bg",
-      "inactiveBackground": "bg"
+      "background": "bg2",
+      "inactiveBackground": "bg2"
     },
     "ToolWindow": {
+      "background": "bg",
+      "borderColor": "#00000000",
       "Header": {
         "background": "bg0_s",
         "inactiveBackground": "bg"
@@ -133,7 +152,32 @@
       "HeaderTab": {
         "selectedInactiveBackground": "bg0_h",
         "hoverInactiveBackground": "bg0_h"
+      },
+
+      "Stripe": {
+        "background": "bg2",
+        "borderColor": "#00000000"
       }
+    },
+    "Tree": {
+      "selectionBackground": "bg3",
+      "lightSelectionBackground": "bg2",
+      "selectionInactiveBackground": "bg2",
+      "selectionForeground": "fg0",
+      "selectionInactiveForeground": "fg0"
+    },
+    "StatusBar": {
+      "background": "bg2",
+      "borderColor": "#00000000"
+    },
+    "MemoryIndicator": {
+      "allocatedBackground": "bg2",
+      "usedBackground": "#45858875"
+    },
+    "NotificationsToolwindow": {
+      "newNotification.background": "bg1",
+      "newNotification.hoverBackground": "#00000012",
+      "Notification.hoverBackground": "bg1"
     },
     "Table": {
       "stripeColor": "bg0_s",
@@ -156,12 +200,12 @@
       }
     },
     "FileColor": {
-      "Yellow": "#b5761422",
-      "Green": "#79740e22",
-      "Blue": "#07667822",
-      "Violet": "#8f3f7122",
-      "Orange": "#af3a0322",
-      "Rose": "#cc241d22"
+      "Yellow": "#fff9eb",
+      "Green": "#79740e18",
+      "Blue": "#07667818",
+      "Violet": "#8f3f7118",
+      "Orange": "#af3a0318",
+      "Rose": "#cc241d18"
     },
     "Link": {
       "activeForeground": "blue1",
@@ -227,8 +271,6 @@
       "Checkbox.Background.Selected": "blue0",
       "Checkbox.Border.Selected": "blue0",
       "Checkbox.Focus.Wide": "blue0",
-      "Checkbox.Focus.Thin.Default": "blue0",
-      "Checkbox.Focus.Thin.Selected": "blue0",
       "Checkbox.Background.Disabled": "bg",
       "Checkbox.Border.Disabled": "bg1",
       "Checkbox.Foreground.Disabled": "bg4"

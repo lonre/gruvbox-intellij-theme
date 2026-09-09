@@ -1,29 +1,28 @@
 <idea-plugin>
-    <id>com.github.lonre.gruvbox-intellij-theme</id>
-    <name>Gruvbox - Theme</name>
+    <id>com.github.lonre.gruvbox-islands-theme</id>
+    <name>Gruvbox Islands - Theme</name>
     <vendor>Lonre Wang</vendor>
 
     <description><![CDATA[
-    Fork from https://plugins.jetbrains.com/plugin/12310-gruvbox-theme.
+    An Islands-native edition of the Gruvbox theme for JetBrains IDEs 2025.3 and later.
 
     gruvbox is heavily inspired by badwolf, jellybeans and solarized.
 
     Designed as a bright theme with pastel 'retro groove' colors and light/dark mode switching in the way of solarized. The main focus when developing gruvbox is to keep colors easily distinguishable, contrast enough and still pleasant for the eyes.
+
+    Includes dark and light themes in hard, medium, and soft contrast variants.
     ]]></description>
 
-    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-         on how to target different products -->
-    <!-- uncomment to enable plugin in all products -->
-    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
-        <themeProvider id="3ef5925f-3169-46ca-ba19-96a58f317428" path="/gruvbox_dark_medium.theme.json"/>
-        <themeProvider id="72be8783-3a4d-4044-bb03-191e61d21ed3" path="/gruvbox_dark_soft.theme.json"/>
-        <themeProvider id="761771ad-a164-482d-96ee-fca15bf0a238" path="/gruvbox_dark_hard.theme.json"/>
-        <themeProvider id="1eaba802-33fc-4d50-a13d-616387745dc0" path="/gruvbox_light_medium.theme.json"/>
-        <themeProvider id="d32e62e0-f0e1-4eab-b191-5304a2b628e1" path="/gruvbox_light_soft.theme.json"/>
-        <themeProvider id="f2de70af-bc81-47f2-a734-4c807d5ca444" path="/gruvbox_light_hard.theme.json"/>
+        <themeProvider id="296584f5-b5d5-4943-afd2-b109835d7fee" path="/gruvbox_dark_medium.theme.json" targetUi="islands"/>
+        <themeProvider id="02a06230-ac2c-4504-86db-a4064aae0fb8" path="/gruvbox_dark_soft.theme.json" targetUi="islands"/>
+        <themeProvider id="e4d30902-f2a8-4e25-8144-f0d3e4efef48" path="/gruvbox_dark_hard.theme.json" targetUi="islands"/>
+        <themeProvider id="46652187-e8ce-43c6-8b8f-d9bb102d0842" path="/gruvbox_light_medium.theme.json" targetUi="islands"/>
+        <themeProvider id="08e79082-2dda-426c-bbe8-b300b262dc52" path="/gruvbox_light_soft.theme.json" targetUi="islands"/>
+        <themeProvider id="5eab5c2b-aa19-4271-a52f-32a675562dab" path="/gruvbox_light_hard.theme.json" targetUi="islands"/>
     </extensions>
 
     <actions>

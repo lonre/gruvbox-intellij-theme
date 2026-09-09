@@ -1,8 +1,9 @@
 {
-  "name": "Gruvbox Dark Hard",
+  "name": "Gruvbox Islands Dark Hard",
   "dark": true,
-  "author": "Vincent Parizet",
+  "author": "Vincent Parizet, Lonre Wang",
   "editorScheme": "/gruvbox_dark_hard.xml",
+  "parentTheme": "Islands Dark",
   "colors": {
     "bg0": "#282828",
     "bg0_hh": "#101415",
@@ -69,6 +70,17 @@
 
       "separatorColor": "bg2"
     },
+    "Islands": 1,
+    "Island": {
+      "borderColor": "bg"
+    },
+    "MainWindow.background": "bg1",
+    "MainWindow.Tab": {
+      "selectedBackground": "bg",
+      "hoverBackground": "#ffffff17",
+      "separatorColor": "bg2",
+      "foreground": "fg3"
+    },
     "ActionButton": {
       "hoverBackground": "bg2"
     },
@@ -110,22 +122,29 @@
     },
     "EditorTabs": {
       "selectedBackground": "bg0_s",
+      "background": "bg",
       "underlinedTabBackground": "bg2",
+      "inactiveUnderlinedTabBackground": "bg0_s",
+      "underlinedBorderColor": "blue1",
+      "inactiveUnderlinedTabBorderColor": "gray1",
       "underlineColor": "blue1",
       "inactiveMaskColor": "#28282866"
     },
     "MainToolbar": {
-      "background": "bg",
-      "inactiveBackground": "bg"
+      "background": "bg1",
+      "inactiveBackground": "bg1",
+      "borderColor": "#00000000"
     },
     "RunWidget": {
       "iconColor": "fg4"
     },
     "TitlePane": {
-      "background": "bg",
-      "inactiveBackground": "bg"
+      "background": "bg1",
+      "inactiveBackground": "bg1"
     },
     "ToolWindow": {
+      "background": "bg",
+      "borderColor": "#00000000",
       "Header": {
         "background": "bg0_s",
         "inactiveBackground": "bg"
@@ -134,7 +153,32 @@
       "HeaderTab": {
         "selectedInactiveBackground": "bg0_hh",
         "hoverInactiveBackground": "bg0_hh"
+      },
+
+      "Stripe": {
+        "background": "bg1",
+        "borderColor": "#00000000"
       }
+    },
+    "Tree": {
+      "selectionBackground": "bg3",
+      "lightSelectionBackground": "bg2",
+      "selectionInactiveBackground": "bg2",
+      "selectionForeground": "fg0",
+      "selectionInactiveForeground": "fg0"
+    },
+    "StatusBar": {
+      "background": "bg1",
+      "borderColor": "#00000000"
+    },
+    "MemoryIndicator": {
+      "allocatedBackground": "bg2",
+      "usedBackground": "#45858875"
+    },
+    "NotificationsToolwindow": {
+      "newNotification.background": "bg0",
+      "newNotification.hoverBackground": "#ffffff17",
+      "Notification.hoverBackground": "bg0"
     },
     "Table": {
       "stripeColor": "bg0_s",
@@ -157,7 +201,7 @@
       }
     },
     "FileColor": {
-      "Yellow": "#fabd2f22",
+      "Yellow": "#291f1c",
       "Green": "#b8bb2622",
       "Blue": "#83a59822",
       "Violet": "#d3869b22",
@@ -222,15 +266,13 @@
       "Objects.YellowDark": "#d79921FF",
       "Objects.GreenAndroid": "#b8bb26FF",
 
-      "Checkbox.Background.Default.Dark": "#282828",
-      "Checkbox.Border.Default.Dark": "#fbf1c7",
-      "Checkbox.Foreground.Selected.Dark": "#fbf1c7",
-      "Checkbox.Focus.Wide.Dark": "#458588",
-      "Checkbox.Focus.Thin.Default.Dark": "#458588",
-      "Checkbox.Focus.Thin.Selected.Dark": "#458588",
-      "Checkbox.Background.Disabled.Dark": "#282828",
-      "Checkbox.Border.Disabled.Dark": "#a89984",
-      "Checkbox.Foreground.Disabled.Dark": "#a89984"
+      "Checkbox.Background.Default": "#282828",
+      "Checkbox.Border.Default": "#fbf1c7",
+      "Checkbox.Foreground.Selected": "#fbf1c7",
+      "Checkbox.Focus.Wide": "#458588",
+      "Checkbox.Background.Disabled": "#282828",
+      "Checkbox.Border.Disabled": "#a89984",
+      "Checkbox.Foreground.Disabled": "#a89984"
     }
   }
 }

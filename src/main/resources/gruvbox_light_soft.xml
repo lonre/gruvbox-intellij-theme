@@ -1,8 +1,8 @@
-<scheme name="Gruvbox Light Soft" version="142" parent_scheme="Default">
+<scheme name="Gruvbox Islands Light Soft" version="142" parent_scheme="Default">
   <colors>
     <option name="ADDED_LINES_COLOR" value="b8bb26" />
     <option name="ANNOTATIONS_COLOR" value="928374" />
-    <option name="CARET_ROW_COLOR" value="ebdbb2" />
+    <option name="CARET_ROW_COLOR" value="fbf1c7" />
     <option name="CONSOLE_BACKGROUND_KEY" value="f2e5bc" />
     <option name="DOCUMENTATION_COLOR" value="f2e5bc" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="bdae93" />
@@ -612,8 +612,8 @@
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
-        <option name="FOREGROUND" value="282828" />
-        <option name="BACKGROUND" value="cccccc" />
+        <option name="FOREGROUND" value="504945" />
+        <option name="BACKGROUND" value="d5c4a1" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
@@ -624,19 +624,19 @@
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
       <value>
-        <option name="FOREGROUND" value="282828" />
-        <option name="BACKGROUND" value="c0cadb" />
+        <option name="FOREGROUND" value="fbf1c7" />
+        <option name="BACKGROUND" value="076678" />
       </value>
     </option>
     <option name="INLAY_DEFAULT">
       <value>
-        <option name="FOREGROUND" value="282828" />
-        <option name="BACKGROUND" value="cccccc" />
+        <option name="FOREGROUND" value="504945" />
+        <option name="BACKGROUND" value="d5c4a1" />
       </value>
     </option>
     <option name="INLAY_TEXT_WITHOUT_BACKGROUND">
       <value>
-        <option name="FOREGROUND" value="282828" />
+        <option name="FOREGROUND" value="7c6f64" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
@@ -700,7 +700,7 @@
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="" />
-        <option name="BACKGROUND" value="d5dce0" />
+        <option name="BACKGROUND" value="d5c4a1" />
       </value>
     </option>
     <option name="METHOD_DECLARATION_ATTRIBUTES">

@@ -1,4 +1,4 @@
-<scheme name="Gruvbox Dark Soft" version="142" parent_scheme="Darcula">
+<scheme name="Gruvbox Islands Dark Soft" version="142" parent_scheme="Darcula">
   <colors>
     <option name="ADDED_LINES_COLOR" value="79740e" />
     <option name="ANNOTATIONS_COLOR" value="928374" />
@@ -624,8 +624,8 @@
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
-        <option name="FOREGROUND" value="acacac" />
-        <option name="BACKGROUND" value="4d4d4d" />
+        <option name="FOREGROUND" value="d5c4a1" />
+        <option name="BACKGROUND" value="504945" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
@@ -636,19 +636,19 @@
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
       <value>
-        <option name="FOREGROUND" value="fbf1c7" />
-        <option name="BACKGROUND" value="3b514d" />
+        <option name="FOREGROUND" value="282828" />
+        <option name="BACKGROUND" value="83a598" />
       </value>
     </option>
     <option name="INLAY_DEFAULT">
       <value>
-        <option name="FOREGROUND" value="acacac" />
-        <option name="BACKGROUND" value="4d4d4d" />
+        <option name="FOREGROUND" value="d5c4a1" />
+        <option name="BACKGROUND" value="504945" />
       </value>
     </option>
     <option name="INLAY_TEXT_WITHOUT_BACKGROUND">
       <value>
-        <option name="FOREGROUND" value="acacac" />
+        <option name="FOREGROUND" value="a89984" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
@@ -702,7 +702,7 @@
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="" />
-        <option name="BACKGROUND" value="3b514d" />
+        <option name="BACKGROUND" value="504945" />
       </value>
     </option>
     <option name="METHOD_DECLARATION_ATTRIBUTES">
