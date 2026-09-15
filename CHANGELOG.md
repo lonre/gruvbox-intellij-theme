@@ -2,7 +2,7 @@
 
 # Gruvbox theme changelog
 
-## Unreleased
+## 0.7.1
 
 ### Added
 - The standalone Islands edition is now available on JetBrains Marketplace: [Gruvbox Islands - Theme](https://plugins.jetbrains.com/plugin/34175)
